@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2
+{
+    color: aqua;
+    text-shadow: 0px 0px 25px aqua;
+}
+.container {
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0px 0px 10px 5px aqua;
+}
+
+.container div img {
+    width: 90vw;
+    height: 100%;
+}
