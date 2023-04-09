@@ -1,4 +1,4 @@
-let urls = [{ url: 'images/Background-H.jpg' }, { url: 'images/Backgroun-h.jpg' }, { url: 'images/bg1.jpg' }]
+let urls = [{ url: 'images/Background-H.jpg' }, { url: 'images/background.jpg' }, { url: 'images/bg1.jpg' }]
     let img = document.getElementById('img');
     let index=0;
     img.innerHTML=`<img src=${urls[index].url} alt="">`
@@ -9,4 +9,4 @@ let urls = [{ url: 'images/Background-H.jpg' }, { url: 'images/Backgroun-h.jpg' 
             index=0;
         }
         img.innerHTML=`<img src=${urls[index].url} alt="">`
-    }, 2000);
+    }, 3000);
